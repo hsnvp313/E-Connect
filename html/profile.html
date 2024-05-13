@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+    <header class="header">
+        <div class="navigation">
+            <a href="/html/front.html"><img src="/res/back.png" alt="back navigation"></a>
+        </div>
+        <h1>User profile</h1>
+    </header>
+    <main>
+        <section class="e-connect-contacts">
+            <h2>E-Connect Contacts</h2>
+            <form id="contactForm">
+                <label for="contact1">Contact 1:</label>
+                <input type="tel" id="contact1" name="contact1" required><br><br>
+
+                <label for="contact2">Contact 2:</label>
+                <input type="tel" id="contact2" name="contact2" required><br><br>
+
+                <label for="contact3">Contact 3:</label>
+                <input type="tel" id="contact3" name="contact3" required><br><br>
+
+                <input type="submit" value="Save">
+            </form>
+        </section>
+        <section class="saved-contacts" id="savedContacts">
+            <h2>Saved Contacts</h2>
+            <ul id="contactsList"></ul>
+        </section>
+    </main>
+    <script src="/js/profile.js"></script>
+</body>
+</html>

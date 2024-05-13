@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.navigation {
+    margin-right: 1rem;
+}
+
+.navigation img {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+}
+h1{
+    margin-left: 30%;
+    font-style: palatino;
+}
+#contactForm label{
+    border-radius: 10%;
+}
